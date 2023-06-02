@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FDAA74F32A290C7F00F03C9D /* CookbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA74F22A290C7F00F03C9D /* CookbookApp.swift */; };
-		FDAA74F52A290C7F00F03C9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA74F42A290C7F00F03C9D /* ContentView.swift */; };
 		FDAA74F72A290C8000F03C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAA74F62A290C8000F03C9D /* Assets.xcassets */; };
 		FDAA74FA2A290C8000F03C9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDAA74F92A290C8000F03C9D /* Preview Assets.xcassets */; };
 		FDAA74FC2A290C8000F03C9D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA74FB2A290C8000F03C9D /* Persistence.swift */; };
@@ -16,6 +15,7 @@
 		FDAA75092A290C8000F03C9D /* CookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA75082A290C8000F03C9D /* CookbookTests.swift */; };
 		FDAA75132A290C8000F03C9D /* CookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA75122A290C8000F03C9D /* CookbookUITests.swift */; };
 		FDAA75152A290C8000F03C9D /* CookbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA75142A290C8000F03C9D /* CookbookUITestsLaunchTests.swift */; };
+		FDAA75222A290C9800F03C9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDAA75212A290C9800F03C9D /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		FDAA74EF2A290C7F00F03C9D /* Cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAA74F22A290C7F00F03C9D /* CookbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookApp.swift; sourceTree = "<group>"; };
-		FDAA74F42A290C7F00F03C9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDAA74F62A290C8000F03C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDAA74F92A290C8000F03C9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDAA74FB2A290C8000F03C9D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +47,8 @@
 		FDAA750E2A290C8000F03C9D /* CookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAA75122A290C8000F03C9D /* CookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookUITests.swift; sourceTree = "<group>"; };
 		FDAA75142A290C8000F03C9D /* CookbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDAA75212A290C9800F03C9D /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../../../../Desktop/123/ContentView.swift; sourceTree = "<group>"; };
+		FDAA75292A291FF000F03C9D /* user.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = user.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				FDAA74F22A290C7F00F03C9D /* CookbookApp.swift */,
-				FDAA74F42A290C7F00F03C9D /* ContentView.swift */,
+				FDAA75212A290C9800F03C9D /* ContentView.swift */,
 				FDAA74F62A290C8000F03C9D /* Assets.xcassets */,
+				FDAA75292A291FF000F03C9D /* user.csv */,
 				FDAA74FB2A290C8000F03C9D /* Persistence.swift */,
 				FDAA74FD2A290C8000F03C9D /* Cookbook.xcdatamodeld */,
 				FDAA74F82A290C8000F03C9D /* Preview Content */,
@@ -264,8 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDAA74FF2A290C8000F03C9D /* Cookbook.xcdatamodeld in Sources */,
+				FDAA75222A290C9800F03C9D /* ContentView.swift in Sources */,
 				FDAA74FC2A290C8000F03C9D /* Persistence.swift in Sources */,
-				FDAA74F52A290C7F00F03C9D /* ContentView.swift in Sources */,
 				FDAA74F32A290C7F00F03C9D /* CookbookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +429,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cookbook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cookbook/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +460,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Cookbook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cookbook/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

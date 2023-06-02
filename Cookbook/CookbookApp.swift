@@ -6,15 +6,18 @@
 //
 
 import SwiftUI
+import CoreData
 
 @main
 struct CookbookApp: App {
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            WindowGroup {
+                NavigationView {
+                    UserRegistrationView()
+                        .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                }
         }
     }
 }
